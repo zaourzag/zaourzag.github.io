@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="nl"
+<head>
+<link rel="stylesheet" href="css/style.css">
+ <title>zakaria kalender</title>
+</head>
+<body>
+<section>
+<h2 class="desktop-header">Embedded Calendar Desktop View</h2>
+  <h2 class="mobile-header">Embedded Calendar Mobile View</h2>
+<div class="responsive-iframe-container big-container"><iframe src="https://www.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%2333B679&amp;ctz=Europe%2FAmsterdam&amp;src=M3V2bGRsZ3BuZTNjMmJqMXB0dTQwc2ppajJzbzI4aWNAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%234285F4" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+</div>
+<div class="responsive-iframe-container small-container"><iframe src="https://www.google.com/calendar/htmlembed?height=600&amp;wkst=1&amp;bgcolor=%2333B679&amp;ctz=Europe%2FAmsterdam&amp;src=M3V2bGRsZ3BuZTNjMmJqMXB0dTQwc2ppajJzbzI4aWNAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%234285F4" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    </div>
+<p>Best solution I've found to Goog
+le Calendars not being 100% responsive when embedded through an iframe.</p>
+</section>
+</body>
